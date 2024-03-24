@@ -2097,3 +2097,611 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.24-20.40.23:145][904]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
 [2024.03.24-20.40.23:238][905]LogAutomationController: Ignoring very large delta of 2.19 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
 [2024.03.24-20.40.23:283][905]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.03.24-20.43.16:885][527]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2024.03.24-20.43.16:955][527]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/MechanicsBuilder_Auto2
+[2024.03.24-20.43.16:955][527]LogSavePackage: Moving 'C:/Users/KamRa/OneDrive/Documents/GitHub/vampire-exorcist/Vampire_Exorcist/Saved/MechanicsBuilder_Auto281713E4949B9552F9520818A5F019860.tmp' to 'C:/Users/KamRa/OneDrive/Documents/GitHub/vampire-exorcist/Vampire_Exorcist/Saved/Autosaves/Game/Levels/MechanicsBuilder_Auto2.umap'
+[2024.03.24-20.43.17:642][527]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/MechanicsBuilder' took 0.802
+[2024.03.24-20.43.17:642][527]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.802
+[2024.03.24-20.43.17:643][527]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/Enemy] ([2] browsable assets)...
+[2024.03.24-20.43.17:720][527]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemy/Enemy.Enemy]
+[2024.03.24-20.43.17:738][527]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/Enemy]
+[2024.03.24-20.43.17:738][527]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Enemy/Enemy_Auto2
+[2024.03.24-20.43.17:738][527]LogSavePackage: Moving 'C:/Users/KamRa/OneDrive/Documents/GitHub/vampire-exorcist/Vampire_Exorcist/Saved/Enemy_Auto2EFCFFC7841AEE50E1DD89A97867F40FF.tmp' to 'C:/Users/KamRa/OneDrive/Documents/GitHub/vampire-exorcist/Vampire_Exorcist/Saved/Autosaves/Game/Enemy/Enemy_Auto2.uasset'
+[2024.03.24-20.43.17:738][527]LogFileHelpers: Auto-saving content packages took 0.094
+[2024.03.24-20.43.23:607][203]LogHttp: Warning: 00000B8ECE41AF00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B963D3952-4C9E-E2D3-C05C-F48F63D19B57%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=03fcd3e0428786070c14b39c5fb3b94e%7Cc9c627df98dc4017830be4b28b0e0d23%7C91dda021-fc2c-46b6-bc3a-90ea4ddb8a36&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.03.24-20.43.23:607][203]LogHttp: Warning: 00000B8ECE41AF00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.24-20.43.23:607][203]LogHttp: Warning: 00000B8ECE41AF00: libcurl info message cache 0 (Found bundle for host: 0xb8e67160870 [serially])
+[2024.03.24-20.43.23:607][203]LogHttp: Warning: 00000B8ECE41AF00: libcurl info message cache 1 (Re-using existing connection #10 with host datarouter.ol.epicgames.com)
+[2024.03.24-20.43.23:607][203]LogHttp: Warning: 00000B8ECE41AF00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (44.198.74.213) port 443 (#10))
+[2024.03.24-20.43.23:607][203]LogHttp: Warning: 00000B8ECE41AF00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.03.24-20.43.23:607][203]LogHttp: Warning: 00000B8ECE41AF00: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.24-20.43.23:607][203]LogHttp: Warning: 00000B8ECE41AF00: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.24-20.43.23:607][203]LogHttp: Warning: 00000B8ECE41AF00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2024.03.24-20.43.23:607][203]LogHttp: Warning: 00000B8ECE41AF00: libcurl info message cache 7 (Closing connection 10)
+[2024.03.24-20.43.23:607][203]LogHttp: Warning: 00000B8ECE41AF00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.24-20.43.23:607][203]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B963D3952-4C9E-E2D3-C05C-F48F63D19B57%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=03fcd3e0428786070c14b39c5fb3b94e%7Cc9c627df98dc4017830be4b28b0e0d23%7C91dda021-fc2c-46b6-bc3a-90ea4ddb8a36&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.24-20.45.52:659][980]LogAutomationController: Ignoring very large delta of 4.88 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.24-20.46.17:266][586]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.24-20.46.17:275][586]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.24-20.46.17:275][586]PIE: New page: PIE session: MechanicsBuilder (24 Mar 2024, 20:46:17)
+[2024.03.24-20.46.17:275][586]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsBuilder
+[2024.03.24-20.46.17:282][586]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006791s)
+[2024.03.24-20.46.17:282][586]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsBuilder.MechanicsBuilder to /Game/Levels/UEDPIE_0_MechanicsBuilder.MechanicsBuilder (0.006877s)
+[2024.03.24-20.46.17:282][586]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.24-20.46.17:302][586]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.24-20.46.17:302][586]LogAIModule: Creating AISystem for world MechanicsBuilder
+[2024.03.24-20.46.17:302][586]LogPlayLevel: PIE: World Init took: (0.001748s)
+[2024.03.24-20.46.17:323][586]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.03.24-20.46.17:325][586]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.03.24-20.46.17:325][586]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.24-20.46.17:325][586]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.24-20.46.17:325][586]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.24-20.46.17:325][586]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.24-20.46.17:325][586]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.24-20.46.17:325][586]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.03.24-20.46.17:325][586]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.24-20.46.17:325][586]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.24-20.46.17:325][586]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.24-20.46.17:325][586]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.24-20.46.17:325][586]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.24-20.46.17:327][586]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.24-20.46.17:343][586]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.03.24-20.46.17:343][586]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.24-20.46.17:343][586]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.24-20.46.17:343][586]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.24-20.46.17:374][586]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.03.24-20.46.17:374][586]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.03.24-20.46.17:376][586]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.03.24-20.46.17:376][586]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.03.24-20.46.17:383][586]LogInit: FAudioDevice initialized with ID 11.
+[2024.03.24-20.46.17:383][586]LogAudio: Display: Audio Device (ID: 11) registered with world 'MechanicsBuilder'.
+[2024.03.24-20.46.17:383][586]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.03.24-20.46.17:458][586]LogLoad: Game class is 'BP_DefaultGameMode_C'
+[2024.03.24-20.46.17:462][586]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsBuilder.MechanicsBuilder up for play (max tick rate 0) at 2024.03.24-20.46.17
+[2024.03.24-20.46.17:463][586]LogWorld: Bringing up level for play took: 0.004479
+[2024.03.24-20.46.17:497][586]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.03.24-20.46.17:507][586]PIE: Server logged in
+[2024.03.24-20.46.17:507][586]PIE: Play in editor total start time 0.233 seconds.
+[2024.03.24-20.46.21:803][592]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.25:717][593]LogAutomationController: Ignoring very large delta of 4.45 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.24-20.46.55:475][428]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.55:512][429]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.55:549][430]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.55:585][431]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.55:617][432]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.55:648][433]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.55:678][434]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.55:714][435]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.55:751][436]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.55:787][437]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.55:824][438]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.55:861][439]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.55:897][440]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.55:933][441]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.55:969][442]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.56:003][443]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.56:035][444]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.56:067][445]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.56:098][446]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.56:130][447]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.56:162][448]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.56:194][449]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.56:225][450]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.56:255][451]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.56:640][463]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.56:671][464]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.56:704][465]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.56:831][469]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.56:861][470]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.56:892][471]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.56:922][472]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.57:071][477]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.57:098][478]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.57:127][479]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.57:156][480]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.57:270][484]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.57:302][485]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.57:332][486]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.57:361][487]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.57:488][491]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.57:519][492]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.57:551][493]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.57:581][494]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.57:678][497]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.57:709][498]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.57:742][499]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.57:868][503]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.57:899][504]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.57:929][505]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.57:959][506]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.57:991][507]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.58:023][508]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.58:053][509]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.58:086][510]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.58:117][511]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.58:146][512]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.58:175][513]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.58:207][514]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.58:240][515]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.58:270][516]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.58:299][517]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.58:330][518]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.58:362][519]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.58:394][520]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.46.58:427][521]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.47.00:310][576]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.24-20.47.00:311][576]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MechanicsBuilder
+[2024.03.24-20.47.00:333][576]LogWorld: UWorld::CleanupWorld for MechanicsBuilder, bSessionEnded=true, bCleanupResources=true
+[2024.03.24-20.47.00:343][576]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.24-20.47.00:408][576]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.24-20.47.00:412][576]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.24-20.47.00:485][576]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.24-20.47.00:485][576]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.03.24-20.47.00:485][576]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.03.24-20.47.00:487][576]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.03.24-20.47.00:649][576]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2024.03.24-20.47.00:762][577]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.03.24-20.48.25:843][685]LogHttp: Warning: 00000B8ECE7BE100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B963D3952-4C9E-E2D3-C05C-F48F63D19B57%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=03fcd3e0428786070c14b39c5fb3b94e%7Cc9c627df98dc4017830be4b28b0e0d23%7C91dda021-fc2c-46b6-bc3a-90ea4ddb8a36&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.03.24-20.48.25:843][685]LogHttp: Warning: 00000B8ECE7BE100: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.24-20.48.25:844][685]LogHttp: Warning: 00000B8ECE7BE100: libcurl info message cache 0 (Found bundle for host: 0xb8e67160930 [serially])
+[2024.03.24-20.48.25:844][685]LogHttp: Warning: 00000B8ECE7BE100: libcurl info message cache 1 (Re-using existing connection #12 with host datarouter.ol.epicgames.com)
+[2024.03.24-20.48.25:844][685]LogHttp: Warning: 00000B8ECE7BE100: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.72.175.12) port 443 (#12))
+[2024.03.24-20.48.25:844][685]LogHttp: Warning: 00000B8ECE7BE100: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.03.24-20.48.25:844][685]LogHttp: Warning: 00000B8ECE7BE100: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.24-20.48.25:844][685]LogHttp: Warning: 00000B8ECE7BE100: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.24-20.48.25:844][685]LogHttp: Warning: 00000B8ECE7BE100: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2024.03.24-20.48.25:844][685]LogHttp: Warning: 00000B8ECE7BE100: libcurl info message cache 7 (Closing connection 12)
+[2024.03.24-20.48.25:844][685]LogHttp: Warning: 00000B8ECE7BE100: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.24-20.48.25:844][685]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B963D3952-4C9E-E2D3-C05C-F48F63D19B57%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=03fcd3e0428786070c14b39c5fb3b94e%7Cc9c627df98dc4017830be4b28b0e0d23%7C91dda021-fc2c-46b6-bc3a-90ea4ddb8a36&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.24-20.48.42:860][323]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.24-20.48.42:868][323]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.24-20.48.42:868][323]PIE: New page: PIE session: MechanicsBuilder (24 Mar 2024, 20:48:42)
+[2024.03.24-20.48.42:868][323]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsBuilder
+[2024.03.24-20.48.42:874][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005632s)
+[2024.03.24-20.48.42:874][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsBuilder.MechanicsBuilder to /Game/Levels/UEDPIE_0_MechanicsBuilder.MechanicsBuilder (0.005684s)
+[2024.03.24-20.48.42:874][323]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.24-20.48.42:874][323]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.24-20.48.42:875][323]LogAIModule: Creating AISystem for world MechanicsBuilder
+[2024.03.24-20.48.42:937][323]LogPlayLevel: PIE: World Init took: (0.063178s)
+[2024.03.24-20.48.42:963][323]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.03.24-20.48.42:965][323]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.03.24-20.48.42:965][323]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.24-20.48.42:965][323]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.24-20.48.42:965][323]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.24-20.48.42:966][323]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.24-20.48.42:966][323]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.24-20.48.42:966][323]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.03.24-20.48.42:966][323]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.24-20.48.42:966][323]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.24-20.48.42:966][323]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.24-20.48.42:966][323]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.24-20.48.42:966][323]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.24-20.48.42:976][323]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.24-20.48.42:987][323]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.03.24-20.48.42:987][323]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.24-20.48.42:987][323]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.24-20.48.42:987][323]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.24-20.48.42:988][323]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.03.24-20.48.42:988][323]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.03.24-20.48.42:990][323]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.03.24-20.48.42:990][323]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.03.24-20.48.42:990][323]LogInit: FAudioDevice initialized with ID 12.
+[2024.03.24-20.48.43:003][323]LogAudio: Display: Audio Device (ID: 12) registered with world 'MechanicsBuilder'.
+[2024.03.24-20.48.43:003][323]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.03.24-20.48.43:007][323]LogLoad: Game class is 'BP_DefaultGameMode_C'
+[2024.03.24-20.48.43:043][323]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsBuilder.MechanicsBuilder up for play (max tick rate 0) at 2024.03.24-20.48.43
+[2024.03.24-20.48.43:043][323]LogWorld: Bringing up level for play took: 0.035329
+[2024.03.24-20.48.43:049][323]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.03.24-20.48.43:109][323]PIE: Server logged in
+[2024.03.24-20.48.43:110][323]PIE: Play in editor total start time 0.242 seconds.
+[2024.03.24-20.48.48:377][384]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.48:691][390]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.48:745][391]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.48:806][392]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.48:864][393]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.48:927][394]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.49:217][399]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.49:278][400]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.49:334][401]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.49:393][402]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.49:447][403]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.49:507][404]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.49:562][405]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.49:621][406]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.49:844][410]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.49:898][411]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.49:961][412]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.50:017][413]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.50:072][414]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.50:128][415]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.50:187][416]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.50:242][417]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.50:301][418]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.50:355][419]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.50:411][420]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.50:467][421]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.50:525][422]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.50:581][423]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.50:639][424]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.50:734][425]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.50:912][428]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.50:967][429]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.51:179][432]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.51:369][435]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.51:417][436]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.51:500][437]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.51:549][438]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.51:601][439]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.51:650][440]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.51:701][441]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.51:750][442]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.51:923][445]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.52:072][448]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.52:121][449]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.52:272][452]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.52:320][453]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.52:469][456]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.52:512][457]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.52:562][458]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.52:792][462]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.52:841][463]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.53:038][467]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.53:086][468]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.53:236][471]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.53:287][472]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.53:434][475]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.53:480][476]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.53:630][479]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.53:675][480]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.53:724][481]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.53:772][482]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.53:820][483]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.53:971][486]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.54:016][487]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.54:066][488]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.54:113][489]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.54:163][490]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.54:208][491]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.54:388][494]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.54:436][495]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.54:486][496]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.54:536][497]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.54:737][501]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.54:786][502]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.54:835][503]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.54:883][504]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.54:934][505]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.54:983][506]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.55:032][507]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.55:084][508]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.55:228][511]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.55:275][512]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.55:324][513]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.55:371][514]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.55:520][517]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.55:569][518]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.55:619][519]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.55:765][522]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.55:811][523]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.55:961][526]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.48.56:006][527]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.49.21:460][ 85]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.24-20.49.21:460][ 85]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MechanicsBuilder
+[2024.03.24-20.49.21:460][ 85]LogWorld: UWorld::CleanupWorld for MechanicsBuilder, bSessionEnded=true, bCleanupResources=true
+[2024.03.24-20.49.21:461][ 85]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.24-20.49.21:475][ 85]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.24-20.49.21:483][ 85]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.24-20.49.21:525][ 85]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.24-20.49.21:525][ 85]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.03.24-20.49.21:525][ 85]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.03.24-20.49.21:527][ 85]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.03.24-20.49.21:573][ 85]LogUObjectHash: Compacting FUObjectHashTables data took  11.41ms
+[2024.03.24-20.49.21:644][ 86]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.03.24-20.51.25:962][499]LogHttp: Warning: 00000B8ED9294B00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B963D3952-4C9E-E2D3-C05C-F48F63D19B57%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=03fcd3e0428786070c14b39c5fb3b94e%7Cc9c627df98dc4017830be4b28b0e0d23%7C91dda021-fc2c-46b6-bc3a-90ea4ddb8a36&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.03.24-20.51.25:962][499]LogHttp: Warning: 00000B8ED9294B00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.24-20.51.25:962][499]LogHttp: Warning: 00000B8ED9294B00: libcurl info message cache 0 (Found bundle for host: 0xb8e671601b0 [serially])
+[2024.03.24-20.51.25:962][499]LogHttp: Warning: 00000B8ED9294B00: libcurl info message cache 1 (Re-using existing connection #13 with host datarouter.ol.epicgames.com)
+[2024.03.24-20.51.25:962][499]LogHttp: Warning: 00000B8ED9294B00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.236.93.56) port 443 (#13))
+[2024.03.24-20.51.25:962][499]LogHttp: Warning: 00000B8ED9294B00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.03.24-20.51.25:962][499]LogHttp: Warning: 00000B8ED9294B00: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.24-20.51.25:962][499]LogHttp: Warning: 00000B8ED9294B00: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.24-20.51.25:962][499]LogHttp: Warning: 00000B8ED9294B00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2024.03.24-20.51.25:962][499]LogHttp: Warning: 00000B8ED9294B00: libcurl info message cache 7 (Closing connection 13)
+[2024.03.24-20.51.25:962][499]LogHttp: Warning: 00000B8ED9294B00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.24-20.51.25:962][499]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B963D3952-4C9E-E2D3-C05C-F48F63D19B57%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=03fcd3e0428786070c14b39c5fb3b94e%7Cc9c627df98dc4017830be4b28b0e0d23%7C91dda021-fc2c-46b6-bc3a-90ea4ddb8a36&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.24-20.54.49:555][386]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.24-20.54.49:572][386]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.24-20.54.49:572][386]PIE: New page: PIE session: MechanicsBuilder (24 Mar 2024, 20:54:49)
+[2024.03.24-20.54.49:572][386]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsBuilder
+[2024.03.24-20.54.49:579][386]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006268s)
+[2024.03.24-20.54.49:579][386]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsBuilder.MechanicsBuilder to /Game/Levels/UEDPIE_0_MechanicsBuilder.MechanicsBuilder (0.006386s)
+[2024.03.24-20.54.49:579][386]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.24-20.54.49:579][386]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.24-20.54.49:590][386]LogAIModule: Creating AISystem for world MechanicsBuilder
+[2024.03.24-20.54.49:590][386]LogPlayLevel: PIE: World Init took: (0.011330s)
+[2024.03.24-20.54.49:620][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2024.03.24-20.54.49:623][386]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.03.24-20.54.49:623][386]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.24-20.54.49:623][386]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.24-20.54.49:623][386]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.24-20.54.49:624][386]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.24-20.54.49:624][386]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.24-20.54.49:624][386]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.03.24-20.54.49:624][386]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.24-20.54.49:624][386]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.24-20.54.49:624][386]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.24-20.54.49:624][386]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.24-20.54.49:624][386]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.24-20.54.49:627][386]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.24-20.54.49:640][386]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.03.24-20.54.49:640][386]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.24-20.54.49:640][386]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.24-20.54.49:640][386]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.24-20.54.49:641][386]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.03.24-20.54.49:641][386]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.03.24-20.54.49:671][386]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.03.24-20.54.49:671][386]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.03.24-20.54.49:678][386]LogInit: FAudioDevice initialized with ID 13.
+[2024.03.24-20.54.49:678][386]LogAudio: Display: Audio Device (ID: 13) registered with world 'MechanicsBuilder'.
+[2024.03.24-20.54.49:678][386]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.03.24-20.54.49:683][386]LogLoad: Game class is 'BP_DefaultGameMode_C'
+[2024.03.24-20.54.49:692][386]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsBuilder.MechanicsBuilder up for play (max tick rate 0) at 2024.03.24-20.54.49
+[2024.03.24-20.54.49:692][386]LogWorld: Bringing up level for play took: 0.008765
+[2024.03.24-20.54.49:726][386]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2024.03.24-20.54.49:734][386]PIE: Server logged in
+[2024.03.24-20.54.49:745][386]PIE: Play in editor total start time 0.164 seconds.
+[2024.03.24-20.54.56:758][392]LogAutomationController: Ignoring very large delta of 2.76 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.24-20.55.17:417][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.24-20.55.17:461][712]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MechanicsBuilder
+[2024.03.24-20.55.18:127][712]LogWorld: UWorld::CleanupWorld for MechanicsBuilder, bSessionEnded=true, bCleanupResources=true
+[2024.03.24-20.55.18:270][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.24-20.55.19:400][712]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.24-20.55.19:549][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.24-20.55.19:995][712]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.24-20.55.20:055][712]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.03.24-20.55.20:293][712]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.03.24-20.55.20:327][712]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.03.24-20.55.20:533][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.24-20.55.22:433][712]LogUObjectHash: Compacting FUObjectHashTables data took  59.22ms
+[2024.03.24-20.55.22:734][713]LogAutomationController: Ignoring very large delta of 6.00 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.24-20.55.22:983][713]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.03.24-20.55.37:104][954]LogAutomationController: Ignoring very large delta of 2.76 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.24-20.55.57:442][322]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.24-20.55.57:451][322]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.24-20.55.57:451][322]PIE: New page: PIE session: MechanicsBuilder (24 Mar 2024, 20:55:57)
+[2024.03.24-20.55.57:451][322]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsBuilder
+[2024.03.24-20.55.57:467][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015452s)
+[2024.03.24-20.55.57:467][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsBuilder.MechanicsBuilder to /Game/Levels/UEDPIE_0_MechanicsBuilder.MechanicsBuilder (0.015566s)
+[2024.03.24-20.55.57:467][322]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.24-20.55.57:467][322]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.24-20.55.57:468][322]LogAIModule: Creating AISystem for world MechanicsBuilder
+[2024.03.24-20.55.57:468][322]LogPlayLevel: PIE: World Init took: (0.001537s)
+[2024.03.24-20.55.57:523][322]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2024.03.24-20.55.57:527][322]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.03.24-20.55.57:527][322]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.24-20.55.57:527][322]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.24-20.55.57:527][322]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.24-20.55.57:527][322]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.24-20.55.57:527][322]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.24-20.55.57:527][322]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.03.24-20.55.57:527][322]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.24-20.55.57:527][322]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.24-20.55.57:540][322]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.24-20.55.57:540][322]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.24-20.55.57:540][322]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.24-20.55.57:545][322]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.24-20.55.57:558][322]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.03.24-20.55.57:559][322]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.24-20.55.57:559][322]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.24-20.55.57:559][322]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.24-20.55.57:559][322]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.03.24-20.55.57:559][322]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.03.24-20.55.57:561][322]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.03.24-20.55.57:561][322]LogInit: FAudioDevice initialized with ID 14.
+[2024.03.24-20.55.57:561][322]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.03.24-20.55.57:561][322]LogAudio: Display: Audio Device (ID: 14) registered with world 'MechanicsBuilder'.
+[2024.03.24-20.55.57:561][322]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.03.24-20.55.57:567][322]LogLoad: Game class is 'BP_DefaultGameMode_C'
+[2024.03.24-20.55.57:570][322]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsBuilder.MechanicsBuilder up for play (max tick rate 0) at 2024.03.24-20.55.57
+[2024.03.24-20.55.57:571][322]LogWorld: Bringing up level for play took: 0.004154
+[2024.03.24-20.55.57:573][322]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.03.24-20.55.57:580][322]PIE: Server logged in
+[2024.03.24-20.55.57:581][322]PIE: Play in editor total start time 0.131 seconds.
+[2024.03.24-20.56.00:149][345]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.56.26:687][794]LogHttp: Warning: 00000B8ED8671900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B963D3952-4C9E-E2D3-C05C-F48F63D19B57%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=03fcd3e0428786070c14b39c5fb3b94e%7Cc9c627df98dc4017830be4b28b0e0d23%7C91dda021-fc2c-46b6-bc3a-90ea4ddb8a36&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.03.24-20.56.26:908][794]LogHttp: Warning: 00000B8ED8671900: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.24-20.56.26:908][794]LogHttp: Warning: 00000B8ED8671900: libcurl info message cache 0 (Found bundle for host: 0xb8e67160a50 [serially])
+[2024.03.24-20.56.26:908][794]LogHttp: Warning: 00000B8ED8671900: libcurl info message cache 1 (Re-using existing connection #15 with host datarouter.ol.epicgames.com)
+[2024.03.24-20.56.26:909][794]LogHttp: Warning: 00000B8ED8671900: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.146.52.44) port 443 (#15))
+[2024.03.24-20.56.26:909][794]LogHttp: Warning: 00000B8ED8671900: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.03.24-20.56.26:909][794]LogHttp: Warning: 00000B8ED8671900: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.24-20.56.26:909][794]LogHttp: Warning: 00000B8ED8671900: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.24-20.56.26:909][794]LogHttp: Warning: 00000B8ED8671900: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2024.03.24-20.56.26:909][794]LogHttp: Warning: 00000B8ED8671900: libcurl info message cache 7 (Closing connection 15)
+[2024.03.24-20.56.26:926][796]LogHttp: Warning: 00000B8ED8671900: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.24-20.56.26:926][796]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B963D3952-4C9E-E2D3-C05C-F48F63D19B57%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=03fcd3e0428786070c14b39c5fb3b94e%7Cc9c627df98dc4017830be4b28b0e0d23%7C91dda021-fc2c-46b6-bc3a-90ea4ddb8a36&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.24-20.56.35:540][945]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.24-20.56.35:540][945]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MechanicsBuilder
+[2024.03.24-20.56.35:540][945]LogWorld: UWorld::CleanupWorld for MechanicsBuilder, bSessionEnded=true, bCleanupResources=true
+[2024.03.24-20.56.35:540][945]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.24-20.56.35:602][945]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.24-20.56.35:607][945]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.24-20.56.35:748][945]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.24-20.56.35:749][945]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.03.24-20.56.35:749][945]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.03.24-20.56.35:750][945]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.03.24-20.56.35:906][945]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.24-20.56.35:909][945]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.03.24-20.56.36:163][946]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.03.24-20.57.01:354][212]LogAutomationController: Ignoring very large delta of 9.80 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.24-21.00.26:801][200]LogHttp: Warning: 00000B8ECA512D00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B963D3952-4C9E-E2D3-C05C-F48F63D19B57%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=03fcd3e0428786070c14b39c5fb3b94e%7Cc9c627df98dc4017830be4b28b0e0d23%7C91dda021-fc2c-46b6-bc3a-90ea4ddb8a36&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.03.24-21.00.26:801][200]LogHttp: Warning: 00000B8ECA512D00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.24-21.00.26:801][200]LogHttp: Warning: 00000B8ECA512D00: libcurl info message cache 0 (Found bundle for host: 0xb8e67160810 [serially])
+[2024.03.24-21.00.26:801][200]LogHttp: Warning: 00000B8ECA512D00: libcurl info message cache 1 (Re-using existing connection #16 with host datarouter.ol.epicgames.com)
+[2024.03.24-21.00.26:801][200]LogHttp: Warning: 00000B8ECA512D00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.92.11.105) port 443 (#16))
+[2024.03.24-21.00.26:801][200]LogHttp: Warning: 00000B8ECA512D00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.03.24-21.00.26:801][200]LogHttp: Warning: 00000B8ECA512D00: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.24-21.00.26:801][200]LogHttp: Warning: 00000B8ECA512D00: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.24-21.00.26:801][200]LogHttp: Warning: 00000B8ECA512D00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2024.03.24-21.00.26:801][200]LogHttp: Warning: 00000B8ECA512D00: libcurl info message cache 7 (Closing connection 16)
+[2024.03.24-21.00.26:801][200]LogHttp: Warning: 00000B8ECA512D00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.24-21.00.26:801][200]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B963D3952-4C9E-E2D3-C05C-F48F63D19B57%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=03fcd3e0428786070c14b39c5fb3b94e%7Cc9c627df98dc4017830be4b28b0e0d23%7C91dda021-fc2c-46b6-bc3a-90ea4ddb8a36&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.24-21.02.06:372][925]Cmd: DUPLICATE
+[2024.03.24-21.02.06:380][925]Cmd: ACTOR DUPLICATE
+[2024.03.24-21.02.08:840][926]LogAutomationController: Ignoring very large delta of 2.54 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.24-21.02.16:100][211]Cmd: DELETE
+[2024.03.24-21.02.16:130][211]Cmd: ACTOR DELETE
+[2024.03.24-21.02.20:218][211]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.24-21.02.20:590][211]LogUObjectHash: Compacting FUObjectHashTables data took  43.71ms
+[2024.03.24-21.02.20:593][211]LogEditorActor: Deleted 1 Actors (4.397 secs)
+[2024.03.24-21.02.20:821][212]LogAutomationController: Ignoring very large delta of 4.80 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.24-21.02.57:328][749]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.03.24-21.03.27:101][916]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.03.24-21.03.27:481][916]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.24-21.03.28:296][916]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.03.24-21.03.28:811][916]LogSavePackage: Moving output files for package: /Game/Levels/MechanicsBuilder
+[2024.03.24-21.03.28:832][916]LogSavePackage: Moving 'C:/Users/KamRa/OneDrive/Documents/GitHub/vampire-exorcist/Vampire_Exorcist/Saved/MechanicsBuilderD554C6114AB0C844A2164DA8A08F63DD.tmp' to 'C:/Users/KamRa/OneDrive/Documents/GitHub/vampire-exorcist/Vampire_Exorcist/Content/Levels/MechanicsBuilder.umap'
+[2024.03.24-21.03.29:572][916]LogFileHelpers: Saving map 'MechanicsBuilder' took 1.457
+[2024.03.24-21.03.29:904][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Enemy" FILE="C:/Users/KamRa/OneDrive/Documents/GitHub/vampire-exorcist/Vampire_Exorcist/Content/Enemy/Enemy.uasset" SILENT=true
+[2024.03.24-21.03.30:506][916]LogSavePackage: Moving output files for package: /Game/Enemy/Enemy
+[2024.03.24-21.03.30:507][916]LogSavePackage: Moving 'C:/Users/KamRa/OneDrive/Documents/GitHub/vampire-exorcist/Vampire_Exorcist/Saved/EnemyC0A474F64DC6C1793BFCD89F8F3FDCFC.tmp' to 'C:/Users/KamRa/OneDrive/Documents/GitHub/vampire-exorcist/Vampire_Exorcist/Content/Enemy/Enemy.uasset'
+[2024.03.24-21.03.30:515][916]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.03 sec (total: 8.72 sec)
+[2024.03.24-21.03.41:591][916]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.24-21.03.41:591][916]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Enemy/Enemy.Enemy
+[2024.03.24-21.03.41:619][916]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MechanicsBuilder.MechanicsBuilder
+[2024.03.24-21.03.41:641][916]LogAutomationController: Ignoring very large delta of 14.64 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.24-21.06.26:701][991]LogHttp: Warning: 00000B8EE1314100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B963D3952-4C9E-E2D3-C05C-F48F63D19B57%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=03fcd3e0428786070c14b39c5fb3b94e%7Cc9c627df98dc4017830be4b28b0e0d23%7C91dda021-fc2c-46b6-bc3a-90ea4ddb8a36&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.03.24-21.06.26:701][991]LogHttp: Warning: 00000B8EE1314100: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.24-21.06.26:701][991]LogHttp: Warning: 00000B8EE1314100: libcurl info message cache 0 (Found bundle for host: 0xb8e67160030 [serially])
+[2024.03.24-21.06.26:701][991]LogHttp: Warning: 00000B8EE1314100: libcurl info message cache 1 (Re-using existing connection #17 with host datarouter.ol.epicgames.com)
+[2024.03.24-21.06.26:701][991]LogHttp: Warning: 00000B8EE1314100: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.22.177.119) port 443 (#17))
+[2024.03.24-21.06.26:701][991]LogHttp: Warning: 00000B8EE1314100: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.03.24-21.06.26:701][991]LogHttp: Warning: 00000B8EE1314100: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.24-21.06.26:701][991]LogHttp: Warning: 00000B8EE1314100: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.24-21.06.26:701][991]LogHttp: Warning: 00000B8EE1314100: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2024.03.24-21.06.26:701][991]LogHttp: Warning: 00000B8EE1314100: libcurl info message cache 7 (Closing connection 17)
+[2024.03.24-21.06.26:701][991]LogHttp: Warning: 00000B8EE1314100: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.24-21.06.26:701][991]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B963D3952-4C9E-E2D3-C05C-F48F63D19B57%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=03fcd3e0428786070c14b39c5fb3b94e%7Cc9c627df98dc4017830be4b28b0e0d23%7C91dda021-fc2c-46b6-bc3a-90ea4ddb8a36&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.24-21.07.01:665][616]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.24-21.07.01:874][616]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.03.24-21.07.01:972][616]LogPlayLevel: [PlayLevel] Compiling Enemy before play...
+[2024.03.24-21.07.04:032][616]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.03.24-21.07.04:035][616]LogPlayLevel: PlayLevel: Blueprint regeneration took 2280 ms (1 blueprints)
+[2024.03.24-21.07.04:035][616]PIE: New page: PIE session: MechanicsBuilder (24 Mar 2024, 21:07:04)
+[2024.03.24-21.07.04:035][616]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsBuilder
+[2024.03.24-21.07.04:073][616]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037728s)
+[2024.03.24-21.07.04:073][616]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsBuilder.MechanicsBuilder to /Game/Levels/UEDPIE_0_MechanicsBuilder.MechanicsBuilder (0.037796s)
+[2024.03.24-21.07.04:073][616]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.24-21.07.04:073][616]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.24-21.07.04:074][616]LogAIModule: Creating AISystem for world MechanicsBuilder
+[2024.03.24-21.07.04:075][616]LogPlayLevel: PIE: World Init took: (0.001618s)
+[2024.03.24-21.07.04:124][616]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2024.03.24-21.07.04:125][616]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.03.24-21.07.04:125][616]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.24-21.07.04:125][616]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.24-21.07.04:125][616]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.24-21.07.04:125][616]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.24-21.07.04:125][616]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.24-21.07.04:125][616]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.03.24-21.07.04:125][616]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.24-21.07.04:125][616]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.24-21.07.04:126][616]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.24-21.07.04:126][616]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.24-21.07.04:126][616]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.24-21.07.04:128][616]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.24-21.07.04:141][616]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.03.24-21.07.04:142][616]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.24-21.07.04:142][616]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.24-21.07.04:142][616]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.24-21.07.04:145][616]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.03.24-21.07.04:145][616]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.03.24-21.07.04:155][616]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.03.24-21.07.04:155][616]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.03.24-21.07.04:196][616]LogInit: FAudioDevice initialized with ID 15.
+[2024.03.24-21.07.04:196][616]LogAudio: Display: Audio Device (ID: 15) registered with world 'MechanicsBuilder'.
+[2024.03.24-21.07.04:196][616]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.03.24-21.07.04:213][616]LogLoad: Game class is 'BP_DefaultGameMode_C'
+[2024.03.24-21.07.04:218][616]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsBuilder.MechanicsBuilder up for play (max tick rate 0) at 2024.03.24-21.07.04
+[2024.03.24-21.07.04:219][616]LogWorld: Bringing up level for play took: 0.005359
+[2024.03.24-21.07.04:222][616]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2024.03.24-21.07.04:233][616]PIE: Server logged in
+[2024.03.24-21.07.04:234][616]PIE: Play in editor total start time 2.48 seconds.
+[2024.03.24-21.07.04:262][617]LogAutomationController: Ignoring very large delta of 2.67 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.24-21.07.08:607][618]LogAutomationController: Ignoring very large delta of 4.35 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.24-21.07.15:645][619]LogAutomationController: Ignoring very large delta of 7.04 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.24-21.07.17:810][620]LogAutomationController: Ignoring very large delta of 2.17 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.24-21.07.33:123][827]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.24-21.07.33:155][827]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MechanicsBuilder
+[2024.03.24-21.07.33:555][827]LogWorld: UWorld::CleanupWorld for MechanicsBuilder, bSessionEnded=true, bCleanupResources=true
+[2024.03.24-21.07.33:811][827]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.24-21.07.34:688][827]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.24-21.07.34:717][827]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.24-21.07.34:964][827]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.24-21.07.35:036][827]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.03.24-21.07.35:178][827]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.03.24-21.07.35:226][827]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.03.24-21.07.37:454][827]LogUObjectHash: Compacting FUObjectHashTables data took  42.44ms
+[2024.03.24-21.07.37:653][828]LogAutomationController: Ignoring very large delta of 4.92 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.24-21.07.37:928][828]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2024.03.24-21.07.56:993][208]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.24-21.07.57:004][208]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.24-21.07.57:004][208]PIE: New page: PIE session: MechanicsBuilder (24 Mar 2024, 21:07:57)
+[2024.03.24-21.07.57:004][208]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsBuilder
+[2024.03.24-21.07.57:027][208]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023160s)
+[2024.03.24-21.07.57:027][208]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsBuilder.MechanicsBuilder to /Game/Levels/UEDPIE_0_MechanicsBuilder.MechanicsBuilder (0.023210s)
+[2024.03.24-21.07.57:027][208]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.24-21.07.57:027][208]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.24-21.07.57:028][208]LogAIModule: Creating AISystem for world MechanicsBuilder
+[2024.03.24-21.07.57:028][208]LogPlayLevel: PIE: World Init took: (0.000938s)
+[2024.03.24-21.07.57:098][208]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.03.24-21.07.57:101][208]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.03.24-21.07.57:101][208]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.24-21.07.57:101][208]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.24-21.07.57:101][208]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.24-21.07.57:101][208]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.24-21.07.57:101][208]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.24-21.07.57:101][208]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.03.24-21.07.57:101][208]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.24-21.07.57:101][208]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.24-21.07.57:102][208]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.24-21.07.57:102][208]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.24-21.07.57:102][208]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.24-21.07.57:130][208]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.24-21.07.57:155][208]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.03.24-21.07.57:156][208]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.24-21.07.57:156][208]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.24-21.07.57:156][208]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.24-21.07.57:159][208]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.03.24-21.07.57:170][208]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.03.24-21.07.57:177][208]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.03.24-21.07.57:177][208]LogInit: FAudioDevice initialized with ID 16.
+[2024.03.24-21.07.57:177][208]LogAudio: Display: Audio Device (ID: 16) registered with world 'MechanicsBuilder'.
+[2024.03.24-21.07.57:177][208]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.03.24-21.07.57:177][208]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.03.24-21.07.57:182][208]LogLoad: Game class is 'BP_DefaultGameMode_C'
+[2024.03.24-21.07.57:186][208]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsBuilder.MechanicsBuilder up for play (max tick rate 0) at 2024.03.24-21.07.57
+[2024.03.24-21.07.57:186][208]LogWorld: Bringing up level for play took: 0.003620
+[2024.03.24-21.07.57:344][208]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2024.03.24-21.07.57:376][208]PIE: Server logged in
+[2024.03.24-21.07.57:377][208]PIE: Play in editor total start time 0.373 seconds.
+[2024.03.24-21.08.13:050][477]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.24-21.08.13:050][477]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MechanicsBuilder
+[2024.03.24-21.08.13:050][477]LogWorld: UWorld::CleanupWorld for MechanicsBuilder, bSessionEnded=true, bCleanupResources=true
+[2024.03.24-21.08.13:051][477]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.24-21.08.13:078][477]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.24-21.08.13:088][477]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.24-21.08.13:193][477]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.24-21.08.13:194][477]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.03.24-21.08.13:194][477]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.03.24-21.08.13:759][477]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.03.24-21.08.13:783][477]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.24-21.08.13:815][477]LogUObjectHash: Compacting FUObjectHashTables data took  30.74ms
+[2024.03.24-21.08.13:951][478]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.03.24-21.08.50:736][482]LogAutomationController: Ignoring very large delta of 34.96 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.24-21.09.01:878][654]LogUObjectHash: Compacting FUObjectHashTables data took  73.57ms
+[2024.03.24-21.09.02:709][654]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.24-21.09.12:572][654]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.03.24-21.09.21:685][654]LogSavePackage: Moving output files for package: /Game/Levels/MechanicsBuilder
+[2024.03.24-21.09.21:736][654]LogSavePackage: Moving 'C:/Users/KamRa/OneDrive/Documents/GitHub/vampire-exorcist/Vampire_Exorcist/Saved/MechanicsBuilderDA93003C4EA59335B6890787F2F72CB5.tmp' to 'C:/Users/KamRa/OneDrive/Documents/GitHub/vampire-exorcist/Vampire_Exorcist/Content/Levels/MechanicsBuilder.umap'
+[2024.03.24-21.09.23:749][654]LogFileHelpers: Saving map 'MechanicsBuilder' took 19.156
+[2024.03.24-21.09.23:901][654]LogFileHelpers: InternalPromptForCheckoutAndSave took 21.2 sec (total: 29.9 sec)
