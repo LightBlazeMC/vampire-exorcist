@@ -2705,3 +2705,238 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.24-21.09.21:736][654]LogSavePackage: Moving 'C:/Users/KamRa/OneDrive/Documents/GitHub/vampire-exorcist/Vampire_Exorcist/Saved/MechanicsBuilderDA93003C4EA59335B6890787F2F72CB5.tmp' to 'C:/Users/KamRa/OneDrive/Documents/GitHub/vampire-exorcist/Vampire_Exorcist/Content/Levels/MechanicsBuilder.umap'
 [2024.03.24-21.09.23:749][654]LogFileHelpers: Saving map 'MechanicsBuilder' took 19.156
 [2024.03.24-21.09.23:901][654]LogFileHelpers: InternalPromptForCheckoutAndSave took 21.2 sec (total: 29.9 sec)
+[2024.03.24-21.09.46:891][654]AssetCheck: New page: Asset Save: MechanicsBuilder
+[2024.03.24-21.09.46:915][654]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MechanicsBuilder.MechanicsBuilder
+[2024.03.24-21.09.47:163][655]LogAutomationController: Ignoring very large delta of 45.65 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.24-21.10.11:094][ 26]LogDerivedDataCache: C:/Users/KamRa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.236 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2237 files in 3260 folders with total size 371 MiB.
+[2024.03.24-21.11.28:655][406]LogAutomationController: Ignoring very large delta of 2.55 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.24-21.12.27:765][465]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.24-21.12.27:774][465]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.24-21.12.27:774][465]PIE: New page: PIE session: MechanicsBuilder (24 Mar 2024, 21:12:27)
+[2024.03.24-21.12.27:775][465]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsBuilder
+[2024.03.24-21.12.27:782][465]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006859s)
+[2024.03.24-21.12.27:782][465]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsBuilder.MechanicsBuilder to /Game/Levels/UEDPIE_0_MechanicsBuilder.MechanicsBuilder (0.006938s)
+[2024.03.24-21.12.27:782][465]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.24-21.12.27:782][465]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.24-21.12.27:783][465]LogAIModule: Creating AISystem for world MechanicsBuilder
+[2024.03.24-21.12.27:823][465]LogPlayLevel: PIE: World Init took: (0.040954s)
+[2024.03.24-21.12.27:891][465]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.03.24-21.12.27:894][465]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.03.24-21.12.27:894][465]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.24-21.12.27:894][465]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.24-21.12.27:894][465]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.24-21.12.27:894][465]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.24-21.12.27:894][465]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.24-21.12.27:894][465]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.03.24-21.12.27:894][465]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.24-21.12.27:894][465]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.24-21.12.27:894][465]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.24-21.12.27:894][465]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.24-21.12.27:894][465]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.24-21.12.27:897][465]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.24-21.12.27:912][465]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.03.24-21.12.27:912][465]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.24-21.12.27:912][465]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.24-21.12.27:912][465]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.24-21.12.27:914][465]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.03.24-21.12.27:914][465]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.03.24-21.12.27:935][465]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.03.24-21.12.27:935][465]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.03.24-21.12.28:033][465]LogInit: FAudioDevice initialized with ID 17.
+[2024.03.24-21.12.28:033][465]LogAudio: Display: Audio Device (ID: 17) registered with world 'MechanicsBuilder'.
+[2024.03.24-21.12.28:033][465]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.03.24-21.12.28:037][465]LogLoad: Game class is 'BP_DefaultGameMode_C'
+[2024.03.24-21.12.28:042][465]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsBuilder.MechanicsBuilder up for play (max tick rate 0) at 2024.03.24-21.12.28
+[2024.03.24-21.12.28:042][465]LogWorld: Bringing up level for play took: 0.005098
+[2024.03.24-21.12.28:112][465]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2024.03.24-21.12.28:120][465]PIE: Server logged in
+[2024.03.24-21.12.28:121][465]PIE: Play in editor total start time 0.346 seconds.
+[2024.03.24-21.12.31:784][495]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.34:884][496]LogAutomationController: Ignoring very large delta of 3.83 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.24-21.12.37:261][520]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.37:352][521]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.37:459][524]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.37:738][527]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.37:834][528]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.38:023][531]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.38:203][534]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.38:351][537]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.38:400][538]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.38:550][541]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.38:600][542]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.38:787][545]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.38:940][548]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.39:098][551]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.39:149][552]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.39:310][555]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.39:510][558]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.39:661][561]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.39:819][564]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.40:842][575]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.41:003][578]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.41:098][579]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.41:266][582]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.42:360][594]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.42:409][595]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.42:458][596]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.42:623][599]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.42:796][602]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.42:963][605]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.43:015][606]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.43:071][607]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.43:182][609]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.43:239][610]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.43:402][613]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.43:573][616]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.43:626][617]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.43:685][618]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.43:741][619]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.43:802][620]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.43:861][621]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.44:039][624]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.44:238][627]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.44:396][630]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.44:448][631]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.44:677][635]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.45:022][641]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.45:077][642]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.45:133][643]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.45:186][644]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.45:238][645]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.45:291][646]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.45:447][649]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.45:499][650]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.45:654][653]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.45:699][654]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.45:748][655]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.45:899][658]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.45:951][659]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.46:002][660]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.46:213][664]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.46:268][665]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.46:326][666]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.46:383][667]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.46:440][668]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.46:494][669]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.46:547][670]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.46:613][671]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.46:663][672]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.46:714][673]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.46:773][674]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.46:825][675]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.46:882][676]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.46:940][677]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.46:997][678]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.47:182][681]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.47:240][682]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.47:298][683]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.47:472][686]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.47:528][687]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.47:704][690]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.47:868][693]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.48:030][696]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.48:080][697]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.48:135][698]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.48:188][699]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.48:528][705]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.48:582][706]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.48:751][709]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.48:805][710]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.48:861][711]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.49:028][714]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.49:306][718]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.49:477][721]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.49:534][722]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.49:702][725]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.49:755][726]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.49:925][729]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.49:981][730]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.50:164][733]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.50:336][736]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.50:387][737]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.51:573][758]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.51:612][759]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.51:764][762]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.51:915][765]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.51:965][766]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.53:463][794]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.53:513][795]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.53:674][798]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.53:728][799]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.53:895][802]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.54:066][805]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.54:273][808]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.54:435][811]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.54:597][814]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.54:652][815]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.54:818][818]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.55:090][823]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.55:145][824]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.55:208][825]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.55:384][828]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.55:549][831]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.55:705][834]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.55:759][835]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.55:811][836]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.56:675][851]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.56:732][852]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.57:298][861]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.57:353][862]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.58:088][875]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.58:763][887]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.59:542][900]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.12.59:602][901]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.13.00:136][910]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.13.00:625][919]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.13.00:679][920]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-21.13.01:591][936]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.24-21.13.01:591][936]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MechanicsBuilder
+[2024.03.24-21.13.01:591][936]LogWorld: UWorld::CleanupWorld for MechanicsBuilder, bSessionEnded=true, bCleanupResources=true
+[2024.03.24-21.13.01:592][936]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.24-21.13.01:883][936]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.24-21.13.01:888][936]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.24-21.13.01:958][936]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.24-21.13.01:958][936]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.03.24-21.13.01:958][936]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.03.24-21.13.01:960][936]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.03.24-21.13.02:575][936]LogUObjectHash: Compacting FUObjectHashTables data took  11.35ms
+[2024.03.24-21.13.02:941][937]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.03.24-21.14.10:305][357]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2024.03.24-21.14.10:309][357]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.24-21.14.10:370][357]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.03.24-21.14.10:405][357]LogSavePackage: Moving output files for package: /Game/Levels/MechanicsBuilder
+[2024.03.24-21.14.10:407][357]LogSavePackage: Moving 'C:/Users/KamRa/OneDrive/Documents/GitHub/vampire-exorcist/Vampire_Exorcist/Saved/MechanicsBuilder2EB336CC4B1D678FF9F8AEA015EBFCD9.tmp' to 'C:/Users/KamRa/OneDrive/Documents/GitHub/vampire-exorcist/Vampire_Exorcist/Content/Levels/MechanicsBuilder.umap'
+[2024.03.24-21.14.10:416][357]LogFileHelpers: Saving map 'MechanicsBuilder' took 0.070
+[2024.03.24-21.14.10:433][357]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 30.0 sec)
+[2024.03.24-21.14.10:562][357]AssetCheck: New page: Asset Save: MechanicsBuilder
+[2024.03.24-21.14.10:562][357]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MechanicsBuilder.MechanicsBuilder
+[2024.03.24-21.14.42:759][435]Cmd: DUPLICATE
+[2024.03.24-21.14.42:759][435]Cmd: ACTOR DUPLICATE
+[2024.03.24-21.15.54:094][780]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonPlayer/Blueprints/BP_FPCharacter.BP_FPCharacter
+[2024.03.24-21.15.54:309][780]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.24-21.15.54:309][780]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.24-21.15.56:132][780]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
+[2024.03.24-21.15.59:127][780]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.004425s (3.042047s overbudget)
+[2024.03.24-21.16.02:331][781]LogAutomationController: Ignoring very large delta of 8.36 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.24-21.16.02:972][782]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.24-21.16.25:004][210]LogHttp: Warning: 00000B8EE14E6E00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B963D3952-4C9E-E2D3-C05C-F48F63D19B57%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=03fcd3e0428786070c14b39c5fb3b94e%7Cc9c627df98dc4017830be4b28b0e0d23%7C91dda021-fc2c-46b6-bc3a-90ea4ddb8a36&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.03.24-21.16.25:025][210]LogHttp: Warning: 00000B8EE14E6E00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.24-21.16.25:025][210]LogHttp: Warning: 00000B8EE14E6E00: libcurl info message cache 0 (Found bundle for host: 0xb8e67160bd0 [serially])
+[2024.03.24-21.16.25:025][210]LogHttp: Warning: 00000B8EE14E6E00: libcurl info message cache 1 (Re-using existing connection #21 with host datarouter.ol.epicgames.com)
+[2024.03.24-21.16.25:025][210]LogHttp: Warning: 00000B8EE14E6E00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.73.112.100) port 443 (#21))
+[2024.03.24-21.16.25:025][210]LogHttp: Warning: 00000B8EE14E6E00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.03.24-21.16.25:025][210]LogHttp: Warning: 00000B8EE14E6E00: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.24-21.16.25:025][210]LogHttp: Warning: 00000B8EE14E6E00: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.24-21.16.25:026][210]LogHttp: Warning: 00000B8EE14E6E00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2024.03.24-21.16.25:026][210]LogHttp: Warning: 00000B8EE14E6E00: libcurl info message cache 7 (Closing connection 21)
+[2024.03.24-21.16.25:026][210]LogHttp: Warning: 00000B8EE14E6E00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.24-21.16.25:026][210]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B963D3952-4C9E-E2D3-C05C-F48F63D19B57%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=03fcd3e0428786070c14b39c5fb3b94e%7Cc9c627df98dc4017830be4b28b0e0d23%7C91dda021-fc2c-46b6-bc3a-90ea4ddb8a36&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.24-21.17.43:071][620]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2024.03.24-21.17.43:074][620]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.24-21.17.43:173][620]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.03.24-21.17.43:186][620]LogSavePackage: Moving output files for package: /Game/Levels/MechanicsBuilder
+[2024.03.24-21.17.43:187][620]LogSavePackage: Moving 'C:/Users/KamRa/OneDrive/Documents/GitHub/vampire-exorcist/Vampire_Exorcist/Saved/MechanicsBuilderD299C0B74CAF872B6B6E7693BCC40583.tmp' to 'C:/Users/KamRa/OneDrive/Documents/GitHub/vampire-exorcist/Vampire_Exorcist/Content/Levels/MechanicsBuilder.umap'
+[2024.03.24-21.17.43:198][620]LogFileHelpers: Saving map 'MechanicsBuilder' took 0.070
+[2024.03.24-21.17.43:206][620]LogFileHelpers: InternalPromptForCheckoutAndSave took 131 ms (total: 30.1 sec)
+[2024.03.24-21.17.43:218][620]AssetCheck: New page: Asset Save: MechanicsBuilder
+[2024.03.24-21.17.43:218][620]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MechanicsBuilder.MechanicsBuilder
