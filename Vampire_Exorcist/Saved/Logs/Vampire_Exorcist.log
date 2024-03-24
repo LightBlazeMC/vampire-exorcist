@@ -1615,3 +1615,254 @@ Script Stack (0 frames) :
 [2024.03.24-19.46.45:073][928]AssetCheck: New page: Asset Save: Enemy_HealthBar
 [2024.03.24-19.46.45:073][928]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Enemy_HealthBar.Enemy_HealthBar
 [2024.03.24-19.46.48:757][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.03.24-19.47.43:444][ 12]LogHttp: Warning: 00000997B9D5D200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9C2459F3-4CB8-CA68-E6D3-58948649E46A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=03fcd3e0428786070c14b39c5fb3b94e%7Cc9c627df98dc4017830be4b28b0e0d23%7C91dda021-fc2c-46b6-bc3a-90ea4ddb8a36&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.03.24-19.47.43:456][ 12]LogHttp: Warning: 00000997B9D5D200: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.24-19.47.43:456][ 12]LogHttp: Warning: 00000997B9D5D200: libcurl info message cache 0 (Found bundle for host: 0x99735170e10 [serially])
+[2024.03.24-19.47.43:456][ 12]LogHttp: Warning: 00000997B9D5D200: libcurl info message cache 1 (Re-using existing connection #10 with host datarouter.ol.epicgames.com)
+[2024.03.24-19.47.43:456][ 12]LogHttp: Warning: 00000997B9D5D200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.195.163.27) port 443 (#10))
+[2024.03.24-19.47.43:456][ 12]LogHttp: Warning: 00000997B9D5D200: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.03.24-19.47.43:456][ 12]LogHttp: Warning: 00000997B9D5D200: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.24-19.47.43:456][ 12]LogHttp: Warning: 00000997B9D5D200: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.24-19.47.43:456][ 12]LogHttp: Warning: 00000997B9D5D200: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2024.03.24-19.47.43:456][ 12]LogHttp: Warning: 00000997B9D5D200: libcurl info message cache 7 (Closing connection 10)
+[2024.03.24-19.47.43:456][ 12]LogHttp: Warning: 00000997B9D5D200: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.24-19.47.43:456][ 12]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9C2459F3-4CB8-CA68-E6D3-58948649E46A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=03fcd3e0428786070c14b39c5fb3b94e%7Cc9c627df98dc4017830be4b28b0e0d23%7C91dda021-fc2c-46b6-bc3a-90ea4ddb8a36&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.24-19.50.56:578][557]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.24-19.51.43:429][707]LogHttp: Warning: 00000997B46DBE00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9C2459F3-4CB8-CA68-E6D3-58948649E46A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=03fcd3e0428786070c14b39c5fb3b94e%7Cc9c627df98dc4017830be4b28b0e0d23%7C91dda021-fc2c-46b6-bc3a-90ea4ddb8a36&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.03.24-19.51.43:429][707]LogHttp: Warning: 00000997B46DBE00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.24-19.51.43:429][707]LogHttp: Warning: 00000997B46DBE00: libcurl info message cache 0 (Found bundle for host: 0x997351709c0 [serially])
+[2024.03.24-19.51.43:429][707]LogHttp: Warning: 00000997B46DBE00: libcurl info message cache 1 (Re-using existing connection #11 with host datarouter.ol.epicgames.com)
+[2024.03.24-19.51.43:429][707]LogHttp: Warning: 00000997B46DBE00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (50.16.173.120) port 443 (#11))
+[2024.03.24-19.51.43:429][707]LogHttp: Warning: 00000997B46DBE00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.03.24-19.51.43:429][707]LogHttp: Warning: 00000997B46DBE00: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.24-19.51.43:429][707]LogHttp: Warning: 00000997B46DBE00: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.24-19.51.43:444][708]LogHttp: Warning: 00000997B46DBE00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2024.03.24-19.51.43:444][708]LogHttp: Warning: 00000997B46DBE00: libcurl info message cache 7 (Closing connection 11)
+[2024.03.24-19.51.43:444][708]LogHttp: Warning: 00000997B46DBE00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.24-19.51.43:444][708]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9C2459F3-4CB8-CA68-E6D3-58948649E46A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=03fcd3e0428786070c14b39c5fb3b94e%7Cc9c627df98dc4017830be4b28b0e0d23%7C91dda021-fc2c-46b6-bc3a-90ea4ddb8a36&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.24-19.52.22:172][452]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2024.03.24-19.52.22:173][452]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/MechanicsBuilder' took 0.100
+[2024.03.24-19.52.22:175][452]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Enemy_HealthBar] ([2] browsable assets)...
+[2024.03.24-19.52.22:178][452]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Enemy_HealthBar.Enemy_HealthBar]
+[2024.03.24-19.52.22:178][452]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy_HealthBar]
+[2024.03.24-19.52.22:225][452]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Enemy_HealthBar_Auto1
+[2024.03.24-19.52.22:225][452]LogSavePackage: Moving 'C:/Users/KamRa/OneDrive/Documents/GitHub/vampire-exorcist/Vampire_Exorcist/Saved/Enemy_HealthBar_Auto17A3EC51740AB1C6BEE2DD7853D7145F3.tmp' to 'C:/Users/KamRa/OneDrive/Documents/GitHub/vampire-exorcist/Vampire_Exorcist/Saved/Autosaves/Game/Enemy_HealthBar_Auto1.uasset'
+[2024.03.24-19.52.22:268][452]LogFileHelpers: Auto-saving content packages took 0.094
+[2024.03.24-19.52.28:903][502]BlueprintLog: New page: Compile Enemy_HealthBar
+[2024.03.24-19.52.29:140][502]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.03.24-19.53.02:982][ 49]BlueprintLog: New page: Compile Enemy_HealthBar
+[2024.03.24-19.53.03:145][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2024.03.24-19.54.43:599][401]LogHttp: Warning: 00000997B9D29600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9C2459F3-4CB8-CA68-E6D3-58948649E46A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=03fcd3e0428786070c14b39c5fb3b94e%7Cc9c627df98dc4017830be4b28b0e0d23%7C91dda021-fc2c-46b6-bc3a-90ea4ddb8a36&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.03.24-19.54.43:599][401]LogHttp: Warning: 00000997B9D29600: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.24-19.54.43:599][401]LogHttp: Warning: 00000997B9D29600: libcurl info message cache 0 (Found bundle for host: 0x99735170600 [serially])
+[2024.03.24-19.54.43:599][401]LogHttp: Warning: 00000997B9D29600: libcurl info message cache 1 (Re-using existing connection #12 with host datarouter.ol.epicgames.com)
+[2024.03.24-19.54.43:599][401]LogHttp: Warning: 00000997B9D29600: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.208.253.152) port 443 (#12))
+[2024.03.24-19.54.43:599][401]LogHttp: Warning: 00000997B9D29600: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.03.24-19.54.43:599][401]LogHttp: Warning: 00000997B9D29600: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.24-19.54.43:599][401]LogHttp: Warning: 00000997B9D29600: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.24-19.54.43:599][401]LogHttp: Warning: 00000997B9D29600: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2024.03.24-19.54.43:603][401]LogHttp: Warning: 00000997B9D29600: libcurl info message cache 7 (Closing connection 12)
+[2024.03.24-19.54.43:603][401]LogHttp: Warning: 00000997B9D29600: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.24-19.54.43:603][401]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9C2459F3-4CB8-CA68-E6D3-58948649E46A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=03fcd3e0428786070c14b39c5fb3b94e%7Cc9c627df98dc4017830be4b28b0e0d23%7C91dda021-fc2c-46b6-bc3a-90ea4ddb8a36&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.24-19.57.36:961][ 11]LogShaderCompilers: Display: ================================================
+[2024.03.24-19.57.36:961][ 11]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.24-19.57.36:961][ 11]LogShaderCompilers: Display: Total job queries 1,371, among them cache hits 2 (0.15%)
+[2024.03.24-19.57.36:961][ 11]LogShaderCompilers: Display: Tracking 1,360 distinct input hashes that result in 798 distinct outputs (58.68%)
+[2024.03.24-19.57.36:961][ 11]LogShaderCompilers: Display: RAM used: 21.78 MiB of 409.60 MiB budget. Usage: 5.32%
+[2024.03.24-19.57.36:961][ 11]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.24-19.57.36:961][ 11]LogShaderCompilers: Display: Shaders Compiled: 1,360
+[2024.03.24-19.57.36:961][ 11]LogShaderCompilers: Display: Jobs assigned 1,364, completed 1,360 (99.71%)
+[2024.03.24-19.57.36:961][ 11]LogShaderCompilers: Display: Average time worker was idle: 48.29 s
+[2024.03.24-19.57.36:961][ 11]LogShaderCompilers: Display: Time job spent in pending queue: average 47.50 s, longest 135.84 s
+[2024.03.24-19.57.36:961][ 11]LogShaderCompilers: Display: Job execution time: average 6.99 s, max 17.34 s
+[2024.03.24-19.57.36:961][ 11]LogShaderCompilers: Display: Job life time (pending + execution): average 54.62 s, max 137.26
+[2024.03.24-19.57.36:961][ 11]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 248.93 s
+[2024.03.24-19.57.36:961][ 11]LogShaderCompilers: Display: Jobs were issued in 219 batches (only local compilation was used), average 6.23 jobs/batch
+[2024.03.24-19.57.36:961][ 11]LogShaderCompilers: Display: Average processing rate: 5.46 jobs/sec
+[2024.03.24-19.57.36:961][ 11]LogShaderCompilers: Display: Total thread time: 989.134 s
+[2024.03.24-19.57.36:961][ 11]LogShaderCompilers: Display: Total thread preprocess time: 28.865 s
+[2024.03.24-19.57.36:961][ 11]LogShaderCompilers: Display: Percentage time preprocessing: 2.92%
+[2024.03.24-19.57.36:961][ 11]LogShaderCompilers: Display: Effective parallelization: 3.97 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2024.03.24-19.57.36:970][ 11]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.24-19.57.36:970][ 11]LogShaderCompilers: Display:                                        FCloudRenderViewPS011 (compiled    1 times, average 2.86 sec, max 2.86 sec, min 2.86 sec)
+[2024.03.24-19.57.36:970][ 11]LogShaderCompilers: Display:                                        FCloudRenderViewPS111 (compiled    1 times, average 2.79 sec, max 2.79 sec, min 2.79 sec)
+[2024.03.24-19.57.36:970][ 11]LogShaderCompilers: Display:                                        FCloudRenderViewPS110 (compiled    1 times, average 2.50 sec, max 2.50 sec, min 2.50 sec)
+[2024.03.24-19.57.36:970][ 11]LogShaderCompilers: Display:                                        FCloudRenderViewPS010 (compiled    1 times, average 2.37 sec, max 2.37 sec, min 2.37 sec)
+[2024.03.24-19.57.36:970][ 11]LogShaderCompilers: Display:                                        FCloudRenderViewPS100 (compiled    1 times, average 2.12 sec, max 2.12 sec, min 2.12 sec)
+[2024.03.24-19.57.36:970][ 11]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.24-19.57.36:970][ 11]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 6.98% of total time (compiled   71 times, average 0.97 sec, max 1.84 sec, min 0.66 sec)
+[2024.03.24-19.57.36:970][ 11]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 6.36% of total time (compiled   71 times, average 0.89 sec, max 1.87 sec, min 0.54 sec)
+[2024.03.24-19.57.36:970][ 11]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 5.67% of total time (compiled   34 times, average 1.65 sec, max 3.18 sec, min 0.82 sec)
+[2024.03.24-19.57.36:970][ 11]LogShaderCompilers: Display:                                             FDebugViewModePS - 5.14% of total time (compiled   56 times, average 0.91 sec, max 1.56 sec, min 0.53 sec)
+[2024.03.24-19.57.36:970][ 11]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 4.63% of total time (compiled   49 times, average 0.93 sec, max 1.53 sec, min 0.67 sec)
+[2024.03.24-19.57.36:970][ 11]LogShaderCompilers: Display: ================================================
+[2024.03.24-19.57.44:168][680]LogHttp: Warning: 00000997AF4CFA00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9C2459F3-4CB8-CA68-E6D3-58948649E46A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=03fcd3e0428786070c14b39c5fb3b94e%7Cc9c627df98dc4017830be4b28b0e0d23%7C91dda021-fc2c-46b6-bc3a-90ea4ddb8a36&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.03.24-19.57.44:168][680]LogHttp: Warning: 00000997AF4CFA00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.24-19.57.44:168][680]LogHttp: Warning: 00000997AF4CFA00: libcurl info message cache 0 (Found bundle for host: 0x99735170930 [serially])
+[2024.03.24-19.57.44:168][680]LogHttp: Warning: 00000997AF4CFA00: libcurl info message cache 1 (Re-using existing connection #13 with host datarouter.ol.epicgames.com)
+[2024.03.24-19.57.44:168][680]LogHttp: Warning: 00000997AF4CFA00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (18.215.78.52) port 443 (#13))
+[2024.03.24-19.57.44:168][680]LogHttp: Warning: 00000997AF4CFA00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.03.24-19.57.44:168][680]LogHttp: Warning: 00000997AF4CFA00: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.24-19.57.44:168][680]LogHttp: Warning: 00000997AF4CFA00: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.24-19.57.44:169][680]LogHttp: Warning: 00000997AF4CFA00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2024.03.24-19.57.44:169][680]LogHttp: Warning: 00000997AF4CFA00: libcurl info message cache 7 (Closing connection 13)
+[2024.03.24-19.57.44:169][680]LogHttp: Warning: 00000997AF4CFA00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.24-19.57.44:169][680]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9C2459F3-4CB8-CA68-E6D3-58948649E46A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=03fcd3e0428786070c14b39c5fb3b94e%7Cc9c627df98dc4017830be4b28b0e0d23%7C91dda021-fc2c-46b6-bc3a-90ea4ddb8a36&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.24-19.59.44:820][972]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.44:828][972]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.44:828][972]LogPhysics: Warning: Scale for /Game/Levels/MechanicsBuilder.MechanicsBuilder:PersistentLevel.Enemy_C_1. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.44:828][972]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Levels/MechanicsBuilder.MechanicsBuilder:PersistentLevel.Enemy_C_1. Health Bar Widget' 
+[2024.03.24-19.59.44:828][972]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.44:828][972]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.44:832][973]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.44:832][973]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.44:842][974]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.44:842][974]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.44:852][975]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.44:852][975]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.44:862][976]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.44:862][976]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.44:870][977]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.44:870][977]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.44:880][978]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.44:880][978]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.44:889][979]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.44:890][979]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.44:898][980]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.44:898][980]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.44:907][981]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.44:907][981]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.44:916][982]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.44:916][982]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.44:925][983]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.44:925][983]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.44:934][984]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.44:934][984]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.44:943][985]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.44:943][985]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.44:952][986]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.44:952][986]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.44:961][987]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.44:961][987]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.44:971][988]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.44:971][988]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.44:980][989]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.44:981][989]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.44:990][990]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.44:990][990]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.44:999][991]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.44:999][991]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:008][992]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:008][992]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:018][993]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:018][993]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:027][994]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:027][994]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:036][995]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:036][995]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:046][996]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:046][996]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:054][997]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:054][997]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:063][998]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:063][998]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:072][999]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:072][999]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:081][  0]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:081][  0]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:090][  1]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:090][  1]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:099][  2]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:099][  2]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:108][  3]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:108][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:118][  4]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:118][  4]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:127][  5]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:127][  5]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:136][  6]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:136][  6]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:144][  7]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:144][  7]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:153][  8]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:153][  8]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:162][  9]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:162][  9]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:171][ 10]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:171][ 10]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:181][ 11]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:181][ 11]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:189][ 12]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:190][ 12]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:199][ 13]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:199][ 13]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:208][ 14]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:208][ 14]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:217][ 15]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:217][ 15]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:227][ 16]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:227][ 16]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:236][ 17]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:236][ 17]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:244][ 18]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:244][ 18]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:254][ 19]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:254][ 19]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:263][ 20]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:263][ 20]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:272][ 21]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:272][ 21]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:281][ 22]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:281][ 22]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:290][ 23]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:290][ 23]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:298][ 24]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:298][ 24]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:308][ 25]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:308][ 25]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:317][ 26]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:317][ 26]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:327][ 27]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:327][ 27]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:336][ 28]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:336][ 28]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:347][ 29]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:347][ 29]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:358][ 30]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:358][ 30]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:368][ 31]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:368][ 31]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:377][ 32]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:377][ 32]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:386][ 33]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:386][ 33]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:395][ 34]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:395][ 34]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:404][ 35]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:404][ 35]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:413][ 36]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:413][ 36]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-19.59.45:422][ 37]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.03.24-19.59.45:422][ 37]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_4:PersistentLevel.Enemy_C_0. Health Bar Widget' 
+[2024.03.24-20.00.37:696][511]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.24-20.00.37:867][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Enemy" FILE="C:/Users/KamRa/OneDrive/Documents/GitHub/vampire-exorcist/Vampire_Exorcist/Content/Enemy/Enemy.uasset" SILENT=true
+[2024.03.24-20.00.37:881][511]LogSavePackage: Moving output files for package: /Game/Enemy/Enemy
+[2024.03.24-20.00.37:882][511]LogSavePackage: Moving 'C:/Users/KamRa/OneDrive/Documents/GitHub/vampire-exorcist/Vampire_Exorcist/Saved/Enemy243848594E192D5925A2C89D88F0A3A2.tmp' to 'C:/Users/KamRa/OneDrive/Documents/GitHub/vampire-exorcist/Vampire_Exorcist/Content/Enemy/Enemy.uasset'
+[2024.03.24-20.00.37:888][511]LogFileHelpers: InternalPromptForCheckoutAndSave took 192 ms (total: 2.39 sec)
+[2024.03.24-20.00.37:901][511]AssetCheck: New page: Asset Save: Enemy
+[2024.03.24-20.00.37:901][511]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Enemy/Enemy.Enemy
+[2024.03.24-20.00.41:418][924]BlueprintLog: New page: Compile Enemy
+[2024.03.24-20.00.41:723][924]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2024.03.24-20.00.47:707][592]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.03.24-20.00.47:710][592]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.24-20.00.47:765][592]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.03.24-20.00.47:835][592]LogSavePackage: Moving output files for package: /Game/Levels/MechanicsBuilder
+[2024.03.24-20.00.47:836][592]LogSavePackage: Moving 'C:/Users/KamRa/OneDrive/Documents/GitHub/vampire-exorcist/Vampire_Exorcist/Saved/MechanicsBuilder32E108024C422919D240BABAB1FB00F3.tmp' to 'C:/Users/KamRa/OneDrive/Documents/GitHub/vampire-exorcist/Vampire_Exorcist/Content/Levels/MechanicsBuilder.umap'
+[2024.03.24-20.00.47:845][592]LogFileHelpers: Saving map 'MechanicsBuilder' took 0.103
+[2024.03.24-20.00.47:859][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy_HealthBar" FILE="C:/Users/KamRa/OneDrive/Documents/GitHub/vampire-exorcist/Vampire_Exorcist/Content/Enemy_HealthBar.uasset" SILENT=true
+[2024.03.24-20.00.47:863][592]LogSavePackage: Moving output files for package: /Game/Enemy_HealthBar
+[2024.03.24-20.00.47:864][592]LogSavePackage: Moving 'C:/Users/KamRa/OneDrive/Documents/GitHub/vampire-exorcist/Vampire_Exorcist/Saved/Enemy_HealthBar123A30C94D2957B3C27F538A674C4E3F.tmp' to 'C:/Users/KamRa/OneDrive/Documents/GitHub/vampire-exorcist/Vampire_Exorcist/Content/Enemy_HealthBar.uasset'
+[2024.03.24-20.00.47:870][592]LogFileHelpers: InternalPromptForCheckoutAndSave took 160 ms (total: 2.55 sec)
+[2024.03.24-20.00.47:879][592]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.24-20.00.47:880][592]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MechanicsBuilder.MechanicsBuilder
+[2024.03.24-20.00.47:880][592]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Enemy_HealthBar.Enemy_HealthBar
