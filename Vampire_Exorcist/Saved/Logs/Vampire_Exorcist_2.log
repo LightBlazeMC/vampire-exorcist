@@ -1999,3 +1999,101 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.24-20.32.35:765][858]AssetCheck: New page: Asset Save: multiple assets
 [2024.03.24-20.32.35:765][858]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Enemy/Enemy.Enemy
 [2024.03.24-20.32.35:765][858]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MechanicsBuilder.MechanicsBuilder
+[2024.03.24-20.34.21:540][491]LogHttp: Warning: 00000B8ED2A4D700: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B963D3952-4C9E-E2D3-C05C-F48F63D19B57%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=03fcd3e0428786070c14b39c5fb3b94e%7Cc9c627df98dc4017830be4b28b0e0d23%7C91dda021-fc2c-46b6-bc3a-90ea4ddb8a36&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.03.24-20.34.21:540][491]LogHttp: Warning: 00000B8ED2A4D700: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.24-20.34.21:540][491]LogHttp: Warning: 00000B8ED2A4D700: libcurl info message cache 0 (Found bundle for host: 0xb8e67160a80 [serially])
+[2024.03.24-20.34.21:540][491]LogHttp: Warning: 00000B8ED2A4D700: libcurl info message cache 1 (Re-using existing connection #7 with host datarouter.ol.epicgames.com)
+[2024.03.24-20.34.21:540][491]LogHttp: Warning: 00000B8ED2A4D700: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.232.42.187) port 443 (#7))
+[2024.03.24-20.34.21:540][491]LogHttp: Warning: 00000B8ED2A4D700: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.03.24-20.34.21:540][491]LogHttp: Warning: 00000B8ED2A4D700: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.24-20.34.21:540][491]LogHttp: Warning: 00000B8ED2A4D700: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.24-20.34.21:540][491]LogHttp: Warning: 00000B8ED2A4D700: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2024.03.24-20.34.21:540][491]LogHttp: Warning: 00000B8ED2A4D700: libcurl info message cache 7 (Closing connection 7)
+[2024.03.24-20.34.21:540][491]LogHttp: Warning: 00000B8ED2A4D700: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.24-20.34.21:540][491]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B963D3952-4C9E-E2D3-C05C-F48F63D19B57%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=03fcd3e0428786070c14b39c5fb3b94e%7Cc9c627df98dc4017830be4b28b0e0d23%7C91dda021-fc2c-46b6-bc3a-90ea4ddb8a36&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.24-20.34.46:620][686]LogViewport: Scene viewport resized to 1141x875, mode Windowed.
+[2024.03.24-20.37.21:635][157]LogHttp: Warning: 00000B8EDABE9600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B963D3952-4C9E-E2D3-C05C-F48F63D19B57%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=03fcd3e0428786070c14b39c5fb3b94e%7Cc9c627df98dc4017830be4b28b0e0d23%7C91dda021-fc2c-46b6-bc3a-90ea4ddb8a36&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.03.24-20.37.21:635][157]LogHttp: Warning: 00000B8EDABE9600: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.24-20.37.21:635][157]LogHttp: Warning: 00000B8EDABE9600: libcurl info message cache 0 (Found bundle for host: 0xb8e67160660 [serially])
+[2024.03.24-20.37.21:635][157]LogHttp: Warning: 00000B8EDABE9600: libcurl info message cache 1 (Re-using existing connection #8 with host datarouter.ol.epicgames.com)
+[2024.03.24-20.37.21:635][157]LogHttp: Warning: 00000B8EDABE9600: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.221.40.95) port 443 (#8))
+[2024.03.24-20.37.21:635][157]LogHttp: Warning: 00000B8EDABE9600: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.03.24-20.37.21:635][157]LogHttp: Warning: 00000B8EDABE9600: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.24-20.37.21:635][157]LogHttp: Warning: 00000B8EDABE9600: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.24-20.37.21:635][157]LogHttp: Warning: 00000B8EDABE9600: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2024.03.24-20.37.21:635][157]LogHttp: Warning: 00000B8EDABE9600: libcurl info message cache 7 (Closing connection 8)
+[2024.03.24-20.37.21:635][157]LogHttp: Warning: 00000B8EDABE9600: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.24-20.37.21:635][157]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B963D3952-4C9E-E2D3-C05C-F48F63D19B57%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=03fcd3e0428786070c14b39c5fb3b94e%7Cc9c627df98dc4017830be4b28b0e0d23%7C91dda021-fc2c-46b6-bc3a-90ea4ddb8a36&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.24-20.37.51:313][554]LogAutomationController: Ignoring very large delta of 2.91 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.24-20.39.22:247][697]LogHttp: Warning: 00000B8ED9F53700: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B963D3952-4C9E-E2D3-C05C-F48F63D19B57%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=03fcd3e0428786070c14b39c5fb3b94e%7Cc9c627df98dc4017830be4b28b0e0d23%7C91dda021-fc2c-46b6-bc3a-90ea4ddb8a36&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.03.24-20.39.22:247][697]LogHttp: Warning: 00000B8ED9F53700: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.24-20.39.22:247][697]LogHttp: Warning: 00000B8ED9F53700: libcurl info message cache 0 (Found bundle for host: 0xb8e671605d0 [serially])
+[2024.03.24-20.39.22:247][697]LogHttp: Warning: 00000B8ED9F53700: libcurl info message cache 1 (Re-using existing connection #9 with host datarouter.ol.epicgames.com)
+[2024.03.24-20.39.22:247][697]LogHttp: Warning: 00000B8ED9F53700: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.225.237.131) port 443 (#9))
+[2024.03.24-20.39.22:247][697]LogHttp: Warning: 00000B8ED9F53700: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.03.24-20.39.22:247][697]LogHttp: Warning: 00000B8ED9F53700: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.24-20.39.22:247][697]LogHttp: Warning: 00000B8ED9F53700: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.24-20.39.22:247][697]LogHttp: Warning: 00000B8ED9F53700: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2024.03.24-20.39.22:247][697]LogHttp: Warning: 00000B8ED9F53700: libcurl info message cache 7 (Closing connection 9)
+[2024.03.24-20.39.22:247][697]LogHttp: Warning: 00000B8ED9F53700: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.24-20.39.22:247][697]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B963D3952-4C9E-E2D3-C05C-F48F63D19B57%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=03fcd3e0428786070c14b39c5fb3b94e%7Cc9c627df98dc4017830be4b28b0e0d23%7C91dda021-fc2c-46b6-bc3a-90ea4ddb8a36&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.24-20.39.56:478][268]BlueprintLog: New page: Compile Enemy
+[2024.03.24-20.39.56:659][268]LogUObjectHash: Compacting FUObjectHashTables data took  12.86ms
+[2024.03.24-20.40.08:023][634]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.24-20.40.08:030][634]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.24-20.40.08:030][634]PIE: New page: PIE session: MechanicsBuilder (24 Mar 2024, 20:40:08)
+[2024.03.24-20.40.08:030][634]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsBuilder
+[2024.03.24-20.40.08:034][634]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003984s)
+[2024.03.24-20.40.08:034][634]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsBuilder.MechanicsBuilder to /Game/Levels/UEDPIE_0_MechanicsBuilder.MechanicsBuilder (0.004021s)
+[2024.03.24-20.40.08:034][634]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.24-20.40.08:034][634]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.24-20.40.08:035][634]LogAIModule: Creating AISystem for world MechanicsBuilder
+[2024.03.24-20.40.08:035][634]LogPlayLevel: PIE: World Init took: (0.001272s)
+[2024.03.24-20.40.08:062][634]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.03.24-20.40.08:064][634]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.03.24-20.40.08:064][634]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.24-20.40.08:065][634]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.24-20.40.08:065][634]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.24-20.40.08:065][634]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.24-20.40.08:065][634]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.24-20.40.08:065][634]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.03.24-20.40.08:065][634]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.24-20.40.08:065][634]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.24-20.40.08:065][634]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.24-20.40.08:065][634]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.24-20.40.08:065][634]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.24-20.40.08:067][634]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.24-20.40.08:086][634]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.03.24-20.40.08:086][634]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.24-20.40.08:086][634]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.24-20.40.08:086][634]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.24-20.40.08:087][634]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.03.24-20.40.08:087][634]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.03.24-20.40.08:089][634]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.03.24-20.40.08:103][634]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.03.24-20.40.08:103][634]LogInit: FAudioDevice initialized with ID 10.
+[2024.03.24-20.40.08:103][634]LogAudio: Display: Audio Device (ID: 10) registered with world 'MechanicsBuilder'.
+[2024.03.24-20.40.08:103][634]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.03.24-20.40.08:183][634]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.24-20.40.08:184][634]LogLoad: Game class is 'BP_DefaultGameMode_C'
+[2024.03.24-20.40.08:190][634]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsBuilder.MechanicsBuilder up for play (max tick rate 0) at 2024.03.24-20.40.08
+[2024.03.24-20.40.08:191][634]LogWorld: Bringing up level for play took: 0.006794
+[2024.03.24-20.40.08:226][634]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.03.24-20.40.08:236][634]PIE: Server logged in
+[2024.03.24-20.40.08:237][634]PIE: Play in editor total start time 0.207 seconds.
+[2024.03.24-20.40.08:352][634]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2024.03.24-20.40.09:905][654]LogBlueprintUserMessages: [BP_FPCharacter_C_0] Attack
+[2024.03.24-20.40.21:100][904]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.24-20.40.21:100][904]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MechanicsBuilder
+[2024.03.24-20.40.22:524][904]LogSlate: Window 'Vampire_Exorcist Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.03.24-20.40.22:742][904]LogWorld: UWorld::CleanupWorld for MechanicsBuilder, bSessionEnded=true, bCleanupResources=true
+[2024.03.24-20.40.22:742][904]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.24-20.40.22:931][904]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.24-20.40.22:938][904]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.24-20.40.23:009][904]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.24-20.40.23:010][904]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.03.24-20.40.23:010][904]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.03.24-20.40.23:135][904]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.03.24-20.40.23:145][904]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2024.03.24-20.40.23:238][905]LogAutomationController: Ignoring very large delta of 2.19 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.24-20.40.23:283][905]LogPlayLevel: Display: Destroying online subsystem :Context_24
